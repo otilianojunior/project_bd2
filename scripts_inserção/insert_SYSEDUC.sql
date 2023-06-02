@@ -24,7 +24,7 @@ INSERT INTO `curso` (`codigo`,`nome`)
 VALUES
   (1,"Montagem e Manutenção"),
   (2,"Operador de Computador"),
-  (3,"Administraçãio"),
+  (3,"Administração"),
   (4,"Programador"),
   (5,"Área da Saúde");
 

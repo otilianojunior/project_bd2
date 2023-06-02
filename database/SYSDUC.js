@@ -44,6 +44,75 @@ db.alunos.inserMany(
       notaAvaliacao: 8.0,
       quantidadeModulos: 6
     }
+  },
+    {
+    matricula: 1620296,
+    nome: "Candice Ramos",
+    telefone: "(96)24830-5117",
+    email: "diam.vel.arcu@gmail.com",
+    dataFrequencia: "18-02-23",
+    curso: {
+      codigo: 3,
+      nome: "Administração"
+    },
+    responsavel: {
+      cpf: '356.770.197-64',
+      nome: "Fletcher Ball",
+      telefone: "(58)82751-8127"
+    },
+    modulo: {
+      codigo: 003,
+      nome: "Matemática financeira",
+      dataAvaliacao: "18-02-23",
+      notaAvaliacao: 4.0,
+      quantidadeModulos: 6
+    }
+  },
+  {
+    matricula: 1646522,
+    nome: "Iona Sharp",
+    telefone: "(66)85439-2463",
+    email: "sagittis.duis.gravida@gmail.com",
+    dataFrequencia: "26-03-23",
+    curso: {
+      codigo: 4,
+      nome: "Programador"
+    },
+    responsavel: {
+      cpf: '356.770.197-64',
+      nome: "Fletcher Ball",
+      telefone: "(58)82751-8127"
+    },
+    modulo: {
+      codigo: 004,
+      nome: "Java",
+      dataAvaliacao: "26-03-23",
+      notaAvaliacao: 8.5,
+      quantidadeModulos: 6
+    }
+  },
+  {
+    matricula: 1711100,
+    nome: "Levi Case",
+    telefone: "(74)70222-1515",
+    email: "sit.amet@gmail.com",
+    dataFrequencia: "07-09-22",
+    curso: {
+      codigo: 5,
+      nome: "Área da Saúde"
+    },
+    responsavel: {
+      cpf: '883.191.240-80',
+      nome: "Calvin Ellis",
+      telefone: "(92)63643-4358"
+    },
+    modulo: {
+      codigo: 005,
+      nome: "Atendente de Farmácia",
+      dataAvaliacao: "07-09-22",
+      notaAvaliacao: 10.0,
+      quantidadeModulos: 6
+    }
   }
   
 );
