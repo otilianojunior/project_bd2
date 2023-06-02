@@ -1,39 +1,50 @@
-
-
-// Coleção "usuarios":
-db.usuarios.insertOne({
-    codigo: 1,
-    nome: "Nome do Usuário",
-    cpf: "12345678901",
-    telefone: "1234567890"
-});
-
-
-//  Coleção "alunos":
-db.alunos.insertOne({
-    matricula: 1,
-    nome: "Nome do Aluno",
-    telefone: "1234567890",
-    email: "aluno@example.com",
+db.alunos.inserMany(
+   {
+    matricula: 1700876,
+    nome: "Wesley Browning",
+    telefone: "(69)88884-5963",
+    email: "lorem.donec@gmail.com",
+    dataFrequencia: "21-10-21",
     curso: {
       codigo: 1,
-      nome: "Nome do Curso"
+      nome: "Montagem e Manutenção"
     },
-    dataFrequencia: "20230602",
     responsavel: {
-      cpf: "12345678901",
-      nome: "Nome do Responsável",
-      telefone: "1234567890"
+      cpf: '125.408.455-45',
+      nome: "Macey Lang",
+      telefone: "(75)60475-5563"
     },
-    modulos: [
-      {
-        codigo: 1,
-        nome: "Nome do Módulo",
-        dataAvaliacao: ISODate("2023-06-02"),
-        notaAvaliacao: 9.5,
-        quantidadeModulos: 5
-      },
-    ]
-  });
-
+    modulo: {
+      codigo: 001,
+      nome: "Redes",
+      dataAvaliacao: "21-10-21",
+      notaAvaliacao: 5.0,
+      quantidadeModulos: 6
+    }
+  },
+  {
+    matricula: 1621224,
+    nome: "Dominique Fuentes",
+    telefone: "(60)45493-2045",
+    email: "elit@gmail.com",
+    dataFrequencia: "08-07-22",
+    curso: {
+      codigo: 2,
+      nome: "Operador de Computador"
+    },
+    responsavel: {
+      cpf: '180.218.645-39',
+      nome: "Hedda Patrick",
+      telefone: "(73)96655-1963"
+    },
+    modulo: {
+      codigo: 002,
+      nome: "Introdução à Informática",
+      dataAvaliacao: "08-07-22",
+      notaAvaliacao: 8.0,
+      quantidadeModulos: 6
+    }
+  }
+  
+);
   
